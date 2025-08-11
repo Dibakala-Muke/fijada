@@ -1,0 +1,16 @@
+@extends('layouts.app')
+
+@section('content')
+    @include('partials.hero')
+    @include('partials.vision')
+    @include('partials.objectif')
+    @include('partials.activite')
+    @include('partials.avantage')
+    @include('partials.mission')
+    @include('partials.membre')
+    @include('partials.partenaire')
+    @include('partials.actualite')
+    @include('partials.initiateur')
+    @include('partials.reseau')
+    @include('partials.contact')
+@endsection
