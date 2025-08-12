@@ -1,7 +1,10 @@
-<script>
-    // Mobile menu toggle
+
+<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js">
+ // Mobile menu toggle
     const mobileMenuButton = document.getElementById('mobile-menu-button');
+    console.log("Bouton1 cliqué : ", mobileMenuButton);
     const mobileMenu = document.getElementById('mobile-menu');
+    console.log("Bouton1 cliqué : ", mobileMenu);
 
     mobileMenuButton.addEventListener('click', () => {
         mobileMenu.classList.toggle('hidden');
@@ -33,4 +36,3 @@
         }
     });
 </script>
-<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
