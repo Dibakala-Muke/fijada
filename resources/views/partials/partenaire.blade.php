@@ -8,7 +8,7 @@
 
         <div class="relative group">
             <!-- Flèche gauche -->
-            <button class="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-3 shadow-xl hover:shadow-2xl transition-all transform -translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 border border-gray-200 hover:border-fijada-blue" id="prevButton">
+            <button class="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-3 shadow-xl hover:shadow-2xl transition-all transform -translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 border border-gray-200 hover:border-fijada-blue cursor-pointer" id="prevButton">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
                 </svg>
@@ -68,7 +68,7 @@
             </div>
 
             <!-- Flèche droite -->
-            <button class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-3 shadow-xl hover:shadow-2xl transition-all transform translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 border border-gray-200 hover:border-fijada-blue" id="nextButton">
+            <button class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-3 shadow-xl hover:shadow-2xl transition-all transform translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 border border-gray-200 hover:border-fijada-blue cursor-pointer" id="nextButton">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                 </svg>
@@ -77,8 +77,8 @@
 
         <!-- Indicateurs de slide -->
         <div class="flex justify-center mt-12 space-x-3">
-            <button class="w-3 h-3 rounded-full bg-fijada-green hover:bg-fijada-blue transition-all" data-slide-to="0"></button>
-            <button class="w-3 h-3 rounded-full bg-fijada-green hover:bg-fijada-blue transition-all" data-slide-to="1"></button>
+            <button class="w-3 h-3 rounded-full bg-fijada-green hover:bg-fijada-blue transition-all cursor-pointer" data-slide-to="0"></button>
+            <button class="w-3 h-3 rounded-full bg-fijada-green hover:bg-fijada-blue transition-all cursor-pointer" data-slide-to="1"></button>
         </div>
     </div>
 </section>
