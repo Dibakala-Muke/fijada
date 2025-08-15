@@ -289,7 +289,7 @@
                     <div class="mb-3">
                         <span
                             class="inline-block bg-fijada-green/10 text-fijada-green px-3 py-1 rounded-full text-sm font-semibold">
-                            19 au 27 21 2025
+                            19 au 21 Mars 2025
                         </span>
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">
@@ -302,6 +302,50 @@
                             événement a permis aux jeunes de s'engager dans des discussions sur des enjeux continentaux,
                             de simuler des processus décisionnels et de promouvoir leur rôle dans le développement
                             durable de l'Afrique.
+                            <span x-show="expanded">
+                            </span>
+                        </p>
+
+                        <button @click="expanded = !expanded"
+                            class="text-fijada-blue font-medium hover:text-fijada-green transition-colors focus:outline-none cursor-pointer">
+                            <span x-text="expanded ? 'Lire moins' : 'Lire plus'"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="h-4 w-4 inline ml-1 transition-transform duration-300"
+                                :class="expanded && 'rotate-180'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article
+                class="bg-white rounded-xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-1">
+                <div class="h-64 overflow-hidden">
+                    <img src="images/actualites/12082025.jpg" alt="Forum FIJADA 2024"
+                        class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                        loading="lazy">
+                </div>
+                <div class="p-6">
+                    <div class="mb-3">
+                        <span
+                            class="inline-block bg-fijada-green/10 text-fijada-green px-3 py-1 rounded-full text-sm font-semibold">
+                            12 Août 2025
+                        </span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                        Forum de 2025
+                    </h3>
+                    <div x-data="{ expanded: false }">
+                        <p class="text-gray-600 leading-relaxed mb-5" :class="!expanded && 'line-clamp-3'">
+                            Le 12 août a été un jour mémorable où la jeunesse africaine s'est rassemblée, s'est exprimée
+                            et a proposé des solutions audacieuses pour l'avenir de l'Afrique.
+                            Revivez en vidéo les moments forts du FIJADA, une journée marquée par une énergie
+                            débordante, des échanges enrichissants et l'inspiration. La voix des jeunes a résonné plus
+                            fort que jamais, et ce n'est que le début.
+                            Merci à tous les participants, intervenants et partenaires qui ont rendu cette
+                            journée possible.
                             <span x-show="expanded">
                             </span>
                         </p>
